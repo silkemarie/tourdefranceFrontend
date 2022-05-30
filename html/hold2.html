@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--stylesheets-->
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/custom.css">
+    <!--scripts-->
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/hold2.js"></script>
+    <!--favicon-->
+    <link rel="icon" href="../img/cykel1-removebg-preview.png">
+
+    <title>Tour De France - Denmark</title>
+
+
+
+</head>
+<body>
+
+<!--navbar-->
+<ul>
+    <li><a class="active" href="#index">Hjem</a></li>
+    <li><a href="../html/hold.html">Hold</a></li>
+    <li><a href="../html/rangliste.html">Rangliste</a></li>
+    <li><a href="../html/troje.html">Trøjerne</a></li>
+</ul>
+
+<!--body-->
+<section id="indexsection" class="mb-2">
+    <div class="container marketing mt-3" id="myContent">
+        <div class="container"> <!--original -->
+            <div class="col-md-12">
+                <div style="margin-top: 5px">
+                    <h2 class="featurette-heading"><span class="text-muted"></span></h2>
+                    <div class="row">
+
+                        <h2 class="featurette-heading">Holdoversigt</h2>
+                        <p class="lead">
+                            Hold øje med dine favoritatleter og hold her</p>
+
+                        <button id="pbGetKommune">Hent Kommuner</button>
+                        <button id="pbShowKommuneMap">Vis kommunemap</button>
+                        <button id="pbFillDropDown">Fill dropdown</button>
+
+                        <select id="ddKommuner"></select>
+                        <button id="pbPostKommuner">Post kommuner</button>
+                        <button id="pbPostRegioner">Post regioner</button>
+
+                        <br>
+                        <label for="inp1">Indtast kommune</label>
+                        <input id="inp1" type="text">
+
+                        <div id="divKom"></div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<hr class="featurette-divider">
+
+
+
+
+</body>
+</html>
