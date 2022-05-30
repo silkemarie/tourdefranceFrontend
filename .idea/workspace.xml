@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d7186785-1d06-4453-8855-8388160cc4b1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/custom.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/hold.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/hold2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/teams.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/fetchRider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/fetchteams.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/hold.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/hold2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/postteams.js" afterDir="false" />
+    <list default="true" id="d7186785-1d06-4453-8855-8388160cc4b1" name="Default Changelist" comment="frontend">
+      <change afterPath="$PROJECT_DIR$/html/riders.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/fetchriders.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/hold.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/hold2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/teams.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/teams.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hold.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hold2.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,8 +78,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1653900559093</updated>
-      <workItem from="1653900560440" duration="12947000" />
+      <workItem from="1653900560440" duration="14862000" />
     </task>
+    <task id="LOCAL-00001" summary="frontend">
+      <created>1653952560205</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1653952560205</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,5 +103,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="frontend" />
+    <option name="LAST_COMMIT_MESSAGE" value="frontend" />
   </component>
 </project>
