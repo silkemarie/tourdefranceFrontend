@@ -38,7 +38,6 @@ async function addTableOverview() {
         tableRow.append(td1);
         tableRow.append(td2);
         tableRow.append(td3);
-
     }
 }
 

@@ -4,10 +4,7 @@ const out = function (str) {
 
 out('jeg er i fetch teams')
 
-
 const ridersUrl = 'http://localhost:8080/riders'
-
-
 
 function fetchAllRiders() {
     out('riders kaldt')
@@ -24,8 +21,7 @@ async function addTableOverview() {
 
     for (let rider of riders) {
 
-
-             const bview = document.getElementById('teamsTable');
+        const bview = document.getElementById('teamsTable');
         out(rider.rider_id)
         out(rider.rider_name)
         const tableRow = document.createElement('tr');
@@ -38,7 +34,7 @@ async function addTableOverview() {
         td2.textContent = rider.rider_name;
 
         const td3 = document.createElement('td');
-td3.textContent = rider.sprint_points;
+        td3.textContent = rider.sprint_points;
 
         const td4 = document.createElement('td');
         td4.textContent = rider.mountain_points;
@@ -62,8 +58,6 @@ td3.textContent = rider.sprint_points;
         tableRow.append(td6);
         tableRow.append(td7);
     }
-
 }
-
 
 out('slut i fetchTeams')
